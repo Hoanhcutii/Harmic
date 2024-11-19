@@ -5620,3 +5620,4 @@ C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\obj\Debug\net8.0\ref
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\obj\Debug\net8.0\Harmic.pdb
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\obj\Debug\net8.0\Harmic.genruntimeconfig.cache
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\obj\Debug\net8.0\ref\Harmic.dll
+C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\obj\Debug\net8.0\Harmic.sourcelink.json

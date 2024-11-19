@@ -11,16 +11,24 @@
       "RelativeMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|solutionrelative:harmic\\areas\\admin\\views\\menus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|c:\\users\\hoanhcutii\\source\\repos\\harmicth7\\harmicth7\\harmic\\areas\\admin\\views\\menus\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|solutionrelative:harmic\\areas\\admin\\views\\menus\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|c:\\users\\hoanhcutii\\source\\repos\\harmicth7\\harmicth7\\harmic\\areas\\admin\\views\\menus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|solutionrelative:harmic\\areas\\admin\\views\\menus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|c:\\users\\hoanhcutii\\source\\repos\\harmicth7\\harmicth7\\harmic\\views\\shared\\components\\blog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|solutionrelative:harmic\\views\\shared\\components\\blog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|c:\\users\\hoanhcutii\\source\\repos\\harmicth7\\harmicth7\\harmic\\areas\\admin\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|solutionrelative:harmic\\areas\\admin\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|c:\\users\\hoanhcutii\\source\\repos\\harmicth7\\harmicth7\\harmic\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|solutionrelative:harmic\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|c:\\users\\hoanhcutii\\source\\repos\\harmicth7\\harmicth7\\harmic\\views\\shared\\components\\blog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADD39C7F-0368-476C-AF78-7C6E7AED5AA7}|Harmic\\Harmic.csproj|solutionrelative:harmic\\views\\shared\\components\\blog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +38,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Areas\\Admin\\Views\\Menus\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Harmic\\Areas\\Admin\\Views\\Menus\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Areas\\Admin\\Views\\Menus\\Edit.cshtml",
+              "RelativeToolTip": "Harmic\\Areas\\Admin\\Views\\Menus\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T09:57:44.622Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,10 +60,22 @@
               "RelativeDocumentMoniker": "Harmic\\Areas\\Admin\\Views\\Menus\\Create.cshtml",
               "ToolTip": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Areas\\Admin\\Views\\Menus\\Create.cshtml",
               "RelativeToolTip": "Harmic\\Areas\\Admin\\Views\\Menus\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-13T10:09:31.524Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Harmic\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "RelativeToolTip": "Harmic\\Areas\\Admin\\Views\\Menus\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T09:21:07.798Z"
             },
             {
               "$type": "Document",
@@ -53,13 +85,13 @@
               "RelativeDocumentMoniker": "Harmic\\Areas\\Admin\\Views\\Menus\\Index.cshtml",
               "ToolTip": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Areas\\Admin\\Views\\Menus\\Index.cshtml",
               "RelativeToolTip": "Harmic\\Areas\\Admin\\Views\\Menus\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEwAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-13T09:46:23.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MenusController.cs",
               "DocumentMoniker": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Areas\\Admin\\Controllers\\MenusController.cs",
               "RelativeDocumentMoniker": "Harmic\\Areas\\Admin\\Controllers\\MenusController.cs",
@@ -77,13 +109,13 @@
               "RelativeDocumentMoniker": "Harmic\\Views\\Shared\\Components\\Blog\\Default.cshtml",
               "ToolTip": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Views\\Shared\\Components\\Blog\\Default.cshtml",
               "RelativeToolTip": "Harmic\\Views\\Shared\\Components\\Blog\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-13T08:15:01.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\Views\\Blog\\Details.cshtml",
               "RelativeDocumentMoniker": "Harmic\\Views\\Blog\\Details.cshtml",
