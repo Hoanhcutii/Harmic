@@ -67,7 +67,7 @@ namespace Harmic.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["CategoryProductId"] = new 
-                SelectList(_context.TblProductCategories, "CategoryProductId", "CategoryProductId", tblProduct.CategoryProductId);
+                SelectList(_context.TblProductCategories, "CategoryProductId", "Title", tblProduct.CategoryProductId);
             return View(tblProduct);
         }
 
@@ -84,7 +84,7 @@ namespace Harmic.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryProductId"] = new SelectList(_context.TblProductCategories, "CategoryProductId", "CategoryProductId", tblProduct.CategoryProductId);
+            ViewData["CategoryProductId"] = new SelectList(_context.TblProductCategories, "CategoryProductId", "Title", tblProduct.CategoryProductId);
             return View(tblProduct);
         }
 
@@ -120,7 +120,7 @@ namespace Harmic.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryProductId"] = new SelectList(_context.TblProductCategories, "CategoryProductId", "CategoryProductId", tblProduct.CategoryProductId);
+            ViewData["CategoryProductId"] = new SelectList(_context.TblProductCategories, "CategoryProductId", "Title", tblProduct.CategoryProductId);
             return View(tblProduct);
         }
 

@@ -53,23 +53,20 @@
                                     <select asp-for="CategoryProductId" class="form-control" asp-items="ViewBag.CategoryProductId">
                                         <option value="0" selected>==[Chọn danh mục]--</option>
                                     </select>
-                                </div>  
+                                </div>
                                 <div class="form-group">
                                     <label asp-for="Description" class="control-label">Mô tả</label>
                                     <input asp-for="Description" class="form-control" />
                                     <span asp-validation-for="Description" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label for="Image" class="control-label">Hình ảnh</label>
+                                    <label asp-for="Image" class="control-label">Ảnh</label>
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
-                                            <button type="button" class="btn btn-success" onclick="document.getElementById('fileInput').click()">Chọn ảnh</button>
+                                            <button type="button" class="btn btn-success" onclick="openDialog()">Choose a picture</button>
                                         </div>
-                                        <input type="file" id="fileInput" style="display: none;" accept="image/*" onchange="handleFileChange(this)">
-                                        <input type="text" id="imagePath" class="form-control" placeholder="Chưa có ảnh nào được chọn"readonly
-                                               style="border: none; background-color: transparent; box-shadow: none; outline: none;">
+                                        <input type="text" class="form-control" id="file_input" asp-for="Image" aria-describedby="button-addon2">
                                     </div>
-                                    <img id="previewImage" src="#" alt="Image Preview" style="max-width: 100%; display: none; margin-top: 10px;">
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="Price" class="control-label">Giá</label>
@@ -102,3 +99,14 @@
         </div>
     </section>
 </div>
+
+@{
+    var summerNote = new Harmic.Areas.Admin.Models.SummerNote("#Detail");
+    <partial name="_SummerNote" model="summerNote" />
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

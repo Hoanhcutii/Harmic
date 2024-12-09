@@ -1,5 +1,4 @@
 ﻿ @model Harmic.Models.TblProduct
-
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
@@ -49,9 +48,9 @@
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="CategoryProductId" class="control-label">Danh mục</label>
-                                    <select asp-for="CategoryProductId" class="form-control" asp-items="ViewBag.CategoryProductId"/>
-                                        <option value="0" selected>--[Chọn danh mục]--</option>
-                                     </select>
+                                    <select asp-for="CategoryProductId" class="form-control" asp-items="ViewBag.CategoryProductId"></select>
+
+                                    
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="Description" class="control-label">Mô tả</label>
@@ -59,16 +58,17 @@
                                     <span asp-validation-for="Description" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="Detail" class="control-label">Miêu tả</label>
-                                    <input asp-for="Detail" class="form-control" />
+                                    <label asp-for="Detail" class="control-label">Chi tiết</label>
+                                    <textarea asp-for="Detail" class="form-control"></textarea>
                                     <span asp-validation-for="Detail" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="Image" class="control-label">Hình ảnh</label>
+                                    <label asp-for="Image" class="control-label">Ảnh</label>
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
-                                            <button type="button" class="btn btn-success" onclick="openDialog()">Choose a picture</button>
+                                            <button type="button" class="btn btn-success" onclick="openDialog()">Chọn ảnh</button>
                                         </div>
+                                        <input type="text" class="form-control" id="file_input" asp-for="Image" aria-describedby="button-addon2" />
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -100,3 +100,12 @@
         </div>
     </section>
 </div>    
+
+@{
+    var summerNote = new Harmic.Areas.Admin.Models.SummerNote("#Detail");
+    <partial name="_SummerNote" model="summerNote" />
+}
+
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
