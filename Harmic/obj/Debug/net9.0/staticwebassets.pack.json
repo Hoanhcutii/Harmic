@@ -12721,6 +12721,22 @@
       "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
     },
     {
+      "Id": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\wwwroot\\assets\\toastr\\toastr.css",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\wwwroot\\assets\\toastr\\toastr.js.map",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\wwwroot\\assets\\toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\wwwroot\\assets\\toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\assets\\toastr\\toastr.min.js"
+    },
+    {
       "Id": "C:\\Users\\Hoanhcutii\\source\\repos\\Harmicth7\\Harmicth7\\Harmic\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

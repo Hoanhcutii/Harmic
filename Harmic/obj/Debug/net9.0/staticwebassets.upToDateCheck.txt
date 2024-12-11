@@ -281,6 +281,7 @@ C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugin
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\pace-progress\themes\pink\pace-theme-fill-left.css
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\flag-icon-css\flags\1x1\es-ct.svg
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\summernote\lang\summernote-sr-RS-Latin.js
+C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\assets\toastr\toastr.css
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\codemirror\mode\xquery\xquery.js
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\flag-icon-css\flags\1x1\um.svg
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\summernote\summernote.min.js.LICENSE.txt
@@ -963,6 +964,7 @@ C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugin
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\bs-custom-file-input\bs-custom-file-input.js
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\flag-icon-css\flags\4x3\ee.svg
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\flag-icon-css\flags\1x1\sv.svg
+C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\assets\toastr\toastr.min.js
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\lib\jqueryui\themes\themes\eggplant\theme.css
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\flag-icon-css\flags\4x3\kr.svg
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\codemirror\mode\sas\sas.js
@@ -1930,6 +1932,7 @@ C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugin
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\jquery-mapael\maps\world_countries.min.js
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\jquery-validation\localization\methods_es_CL.js
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\flag-icon-css\flags\1x1\mg.svg
+C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\assets\toastr\toastr.min.css
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\lib\jqueryui\themes\themes\flick\jquery-ui.min.css
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\flag-icon-css\flags\1x1\cl.svg
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\jquery-ui\LICENSE.txt
@@ -2039,6 +2042,7 @@ C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugin
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\lib\bootstrap\js\src\scrollspy.js
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\fullcalendar\locales\es.js
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\flag-icon-css\flags\4x3\pm.svg
+C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\assets\toastr\toastr.js.map
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\summernote\summernote-bs5.js
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\dist\css\alt\adminlte.plugins.min.css
 C:\Users\Hoanhcutii\source\repos\Harmicth7\Harmicth7\Harmic\wwwroot\admin\plugins\codemirror\theme\ayu-mirage.css
@@ -5664,6 +5668,10 @@ wwwroot\assets\scss\bootstrap\mixins\_visually-hidden.scss
 wwwroot\assets\scss\bootstrap\utilities\_api.scss
 wwwroot\assets\scss\bootstrap\vendor\_rfs.scss
 wwwroot\assets\scss\style.scss
+wwwroot\assets\toastr\toastr.css
+wwwroot\assets\toastr\toastr.js.map
+wwwroot\assets\toastr\toastr.min.css
+wwwroot\assets\toastr\toastr.min.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

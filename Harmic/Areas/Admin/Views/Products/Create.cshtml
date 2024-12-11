@@ -1,8 +1,10 @@
-﻿ @model Harmic.Models.TblProduct
+﻿@model Harmic.Models.TblProduct
+
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
+
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -20,6 +22,7 @@
             </div>
         </div><!-- /.container-fluid -->
     </section>
+
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
@@ -48,9 +51,18 @@
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="CategoryProductId" class="control-label">Danh mục</label>
-                                    <select asp-for="CategoryProductId" class="form-control" asp-items="ViewBag.CategoryProductId"></select>
-
-                                    
+                                    <select asp-for="CategoryProductId" class="form-control" asp-items="ViewBag.CategoryProducID">
+                                        <option value="0" selected>--[Chọn danh mục]--</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Image" class="control-label">Ảnh</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <button type="button" class="btn btn-success" onclick="openDialog()">Choose a picture</button>
+                                        </div>
+                                        <input type="text" class="form-control" id="file_input" asp-for="Image" aria-describedby="button-addon2">
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <label asp-for="Description" class="control-label">Mô tả</label>
@@ -63,15 +75,6 @@
                                     <span asp-validation-for="Detail" class="text-danger"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label asp-for="Image" class="control-label">Ảnh</label>
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <button type="button" class="btn btn-success" onclick="openDialog()">Chọn ảnh</button>
-                                        </div>
-                                        <input type="text" class="form-control" id="file_input" asp-for="Image" aria-describedby="button-addon2" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
                                     <label asp-for="Price" class="control-label">Giá</label>
                                     <input asp-for="Price" class="form-control" />
                                     <span asp-validation-for="Price" class="text-danger"></span>
@@ -80,6 +83,20 @@
                                     <label asp-for="PriceSale" class="control-label">Giá giảm</label>
                                     <input asp-for="PriceSale" class="form-control" />
                                     <span asp-validation-for="PriceSale" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Quantity" class="control-label">Số lượng</label>
+                                    <input asp-for="Quantity" class="form-control" />
+                                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="IsNew" class="control-label">SP Mới</label>
+                                    <input asp-for="IsNew" class="form-control" />
+                                    <span asp-validation-for="IsNew" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="Star" class="control-label">Sao</label>
+                                    <input asp-for="Star" class="form-control" /><span asp-validation-for="Star" class="text-danger"></span>
                                 </div>
                                 <div class="form-group form-check">
                                     <label class="form-check-label">
@@ -90,22 +107,24 @@
                                     <input type="submit" value="Thêm mới" class="btn btn-primary" />
                                 </div>
                             </div>
-                            <div class="card-footer">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
                         </form>
                     </div>
+                    <!-- /.card -->
                 </div>
             </div>
-        </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
     </section>
-</div>    
+    <!-- /.content -->
+</div>
 
 @{
     var summerNote = new Harmic.Areas.Admin.Models.SummerNote("#Detail");
     <partial name="_SummerNote" model="summerNote" />
 }
 
-@section Scripts{
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

@@ -29,6 +29,7 @@
     <Folder Include="Views\Shared\Components\MenuTop\" />
     <Folder Include="Views\Shared\Components\Blog\" />
     <Folder Include="Views\Shared\Components\Product\" />
+    <Folder Include="wwwroot\files\" />
   </ItemGroup>
 
 </Project>
